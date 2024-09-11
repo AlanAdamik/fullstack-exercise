@@ -1,5 +1,5 @@
 import React from "react";
-import { useAppointments } from "./appointments";
+import { useAppointments } from "./Appointments";
 import "./App.css";
 
 function App() {
