@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background: #00002b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.title {
+  font-size: 24px;
+  color: white;
+}
+
+.appointment-list {
+  width: 50%;
+  list-style: none;
+  padding: 0;
+}
+
+.appointment-list > li {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  border-radius: 10px;
+  background: white;
+  border: black;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+button:hover {
+  background: lightblue;
+  cursor: pointer;
+}
