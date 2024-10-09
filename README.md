@@ -23,7 +23,7 @@ cd frontend-react && npm i && npm start
     - two buttons prev/next cycle through the appointments
     - prev button should be disabled on first page
     - next button should be disabled on last page
-    - pages are 10 items long
+    - pages are 10 items long.
     
 # Exercise 2 :  Handle pagination in backend
     - migrate the pagination to the backend
