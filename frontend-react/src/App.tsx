@@ -3,7 +3,8 @@ import { useAppointments } from "./Appointments";
 import "./App.css";
 
 function App() {
-  const { appointments, loading } = useAppointments();
+  const { appointments, loading, index, prev, next } = useAppointments();
+
 
   return loading ? (
     <p>Loading...</p>
@@ -18,6 +19,9 @@ function App() {
           </li>
         ))}
       </ul>
+	  <button onClick={prev} disabled={index===0}>Prev</button>
+	  <button onClick={next} disabled={appointments.length<10}>Next</button>
+
     </div>
   );
 }

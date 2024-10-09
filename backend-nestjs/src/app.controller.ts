@@ -18,8 +18,10 @@ export class AppController {
     return this.appService.getHello(name);
   }
 
-  @Get('/appointments')
-  getAppointments() {
-    return appointments;
+  @Get('/appointments/:index')
+  getAppointments(@Param('index') index: string) {
+    const i = parseInt(index);
+    const slicedList = appointments.slice(i, i + 10);
+    return slicedList;
   }
 }
