@@ -2,7 +2,7 @@
 
 Clone this repository using
 ```
-git clone https://github.com/AlanAdamik/fullstack-case-study.git
+git clone https://github.com/AlanAdamik/fullstack-exercise.git
 cd fullstack-case-study
 ```
 
