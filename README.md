@@ -19,12 +19,12 @@ cd frontend-react && npm i && npm start
 - `http://localhost:3000` to access the frontend 
 
 
-# Exercise 1 : Handle pagination in the frontend
+# Exercise 1 : Frontend pagination
     - two buttons prev/next cycle through the appointments
     - prev button should be disabled on first page
     - next button should be disabled on last page
     - pages are 10 items long
     
-# Exercise 2 :  Handle pagination in backend
+# Exercise 2 :  Backend pagination
     - migrate the pagination to the backend
     - buttons behavior should stay the same
