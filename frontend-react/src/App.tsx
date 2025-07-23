@@ -13,8 +13,14 @@ function App() {
       <ul className="appointment-list">
         {appointments.map((appointment) => (
           <li>
-            {appointment.seller} sees {appointment.buyer} at{" "}
-            {appointment.startTime}
+            <span>
+              <span className="appointment-seller">{appointment.seller}</span>
+              {" receives  "}
+              <span className="appointment-buyer">{appointment.buyer}</span>
+            </span>
+            <span className="appointment-time">
+              {new Date(appointment.startTime).toLocaleString()}
+            </span>
           </li>
         ))}
       </ul>
