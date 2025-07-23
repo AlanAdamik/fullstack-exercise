@@ -20,11 +20,17 @@ cd frontend-react && npm i && npm start
 
 
 # Exercise 1 : Frontend pagination
+
+> During this part of the exercise, you will only modify frontend files
+
     - two buttons prev/next cycle through the appointments
     - prev button should be disabled on first page
     - next button should be disabled on last page
     - pages are 10 items long
     
 # Exercise 2 :  Backend pagination
+
+> During this part of the exercise, you can modify any file you want
+
     - migrate the pagination to the backend
     - buttons behavior should stay the same
