@@ -35,7 +35,7 @@ Since the number of appointments is supposedly very limited, the decision was ma
 The acceptance criterias are :
 
     - two buttons prev/next cycle through the appointments
-    - between the two buttons, we can see the current page and total number of pages 
+    - between the two buttons, we can see the current page
     - prev button should be disabled on first page
     - next button should be disabled on last page
     - pages are 100 items long
