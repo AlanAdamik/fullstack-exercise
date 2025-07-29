@@ -52,6 +52,10 @@ body {
   gap: 10px;
 }
 
+.current-page {
+  color: white;
+}
+
 button {
   border-radius: 10px;
   background: white;
