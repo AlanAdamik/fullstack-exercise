@@ -10,6 +10,11 @@ function App() {
   ) : (
     <div className="app">
       <h1 className="title">Appointments</h1>
+      <div className="buttons">
+        <button type="button">Previous</button>
+        <span>Current page : n/a</span>
+        <button type="button">Next</button>
+      </div>
       <ul className="appointment-list">
         {appointments.map((appointment) => (
           <li>
